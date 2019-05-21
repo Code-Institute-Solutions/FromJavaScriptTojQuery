@@ -4,7 +4,7 @@
  */
 
 // Append a span to every paragraph
-$("p").append("<span>lorem ipsum</p>");
+$("p").append("<span>lorem ipsum</span>");
 
 // Remove all links using the remove function
 $("a").remove();

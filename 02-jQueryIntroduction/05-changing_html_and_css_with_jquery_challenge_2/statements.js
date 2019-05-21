@@ -10,4 +10,4 @@ $("p").append("<span>lorem ipsum</p>");
 $("a").remove();
 
 // Empty all div elements that have a class of card
-$("div.card").text("");
+$("div.card").empty();

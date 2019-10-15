@@ -9,6 +9,9 @@ $("img");
 // Get all elements with a class of `card_image`
 $(".card_image");
 
+// Get the footer by its ID
+$('#my_footer');
+
 // All paragrapgh elements in the `footer`
 $("footer p");
 

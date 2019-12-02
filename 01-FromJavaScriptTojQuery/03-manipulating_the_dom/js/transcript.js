@@ -92,16 +92,15 @@ firstLi.classList.remove('active');
  * Updating a list of elements
  * - this is where it gets painful
  */
-
+var lis = ul[0].getElementByTagName('li');
 var ul = document.getElementsByTagName('ul');
 var li;
-for (var i = 0; i < ul[0].children.length; i++) {
-    li = ul[0].children;
-    li.style.backgroundColor = 'pink';
+for (var i = 0; i < lis.length; i++) {
+    lis[i].style.backgroundColor = 'pink';
 }
 
 // Wouldn't it be great if we could do something like  ...
 
-ul.removeClass('active').css('pink');
+ul.find('li').removeClass('active').addClass('inactive').css('background-color', 'pink');
 
 // without having to write big for loops

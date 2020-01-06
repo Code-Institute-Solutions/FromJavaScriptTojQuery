@@ -73,20 +73,6 @@ div{
 	padding: 20px;
 	background-color: #fff;
 }
-/*adds colour red to paragraphs when called by jquery function*/
-.highlight_text{
-	background-color: #EB5255;
-}
-/*adds colour lightblue to h2 background when called by jquery function*/
-.h2_color{
-	background-color: lightblue;
-	
-}
-/*increases font-size of  h2 when called by jquery function*/
-.h2_font_size{
-	font-size: 2em;
-}
-
 
 #my_footer{
 	width:100%;

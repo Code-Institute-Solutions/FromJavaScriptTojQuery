@@ -12,7 +12,6 @@
 	display: flex;
 	box-sizing:border-box;
 	border-radius: 4px;
-	display: block;
 	width: 100%;
 	background-color:rgba(129, 187, 201,.85);
 	text-align: center;
